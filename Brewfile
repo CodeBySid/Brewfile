@@ -6,11 +6,9 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-cask "java8"
 brew "autoconf"
 brew "automake"
 brew "coreutils"
-brew "elasticsearch", restart_service: true
 brew "elixir"
 brew "git-lfs"
 brew "pinentry"
@@ -20,7 +18,6 @@ brew "graphviz"
 brew "httrack"
 brew "imagemagick", link: false
 brew "imagemagick@6", link: true
-brew "kibana", restart_service: true
 brew "kubernetes-cli"
 brew "pkg-config"
 brew "libyaml"
